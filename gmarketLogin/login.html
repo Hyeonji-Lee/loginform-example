@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>G마켓 - 로그인</title>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+	<link href="login.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+	<div id="wrap">
+		<form id="loginForm" method="POST" action="">
+			<h1 class="logo"><img src="logo.gif"></h1>
+			<div class="divider"></div>
+			<div class="bread-crumb">홈 > 로그인</div>
+			<div class="login-section">
+				<div class="col-2 login">
+					<h2><img src="tit_login.gif"/></h2>
+					<div class="member-select">
+						<label for="memberY">
+							<input type="radio" class="radio" name="member_yn" id="memberY" value="Y" checked> 회원
+						</label>
+						<label for="memberN">
+							<input type="radio" class="radio" name="member_yn" id="memberN" value="N"> 비회원
+						</label>
+					</div>
+					<div id="memberLogin" class="login-form on">
+						<div class="login-input">
+							<div class="user-input">
+								<label for="userid">
+									<span class="label-txt">아이디</span>
+									<input type="text" class="input-txt" name="userid" maxlength="10"/>
+								</label>
+								<label for="userpw">
+									<span class="label-txt">비밀번호</span>
+									<input type="password" class="input-txt" name="userpw"  maxlength="15"/>
+								</label>
+								<label class="saveid" for="saveid">
+									<input type="checkbox" id="saveid" name="saveid" /><span class="label-txt">아이디 저장</span>
+								</label>
+							</div>
+							<div class="btn-login-wrap">
+								<input type="submit" class="btn btn-login" value="로그인"/>
+							</div>
+						</div>
+						<div class="links">
+							<p class="member">
+								<a id="findID" href="#">아이디 찾기</a>
+								<a id="findPW" href="#">비밀번호 찾기</a>
+								<a id="register" href="#">회원가입</a>
+							</p>
+						</div>
+					</div>
+					<div id="nonLogin" class="login-form">
+						<div class="login-input">
+							<div class="user-input">
+								<label for="buyer_name">
+									<span class="label-txt">주문자명</span>
+									<input type="text" class="input-txt" name="buyer_name"/>
+								</label>
+								<label for="buyer_tel1">
+									<span class="label-txt">휴대폰 번호</span>
+									<input type="text" class="input-txt input-tel" name="buyer_tel1" maxlength="4"/>
+									<span class="dash">-</span>
+									<input type="text" class="input-txt input-tel" name="buyer_tel2" maxlength="4"/>
+									<span class="dash">-</span>
+									<input type="text" class="input-txt input-tel" name="buyer_tel3" maxlength="4"/>
+								</label>
+								<label for="buyer_pw">
+									<span class="label-txt">주문비밀번호</span>
+									<input type="password" class="input-txt" name="buyer_pw"/>
+								</label>
+							</div>
+							<div class="btn-login-wrap">
+								<input type="submit" class="btn btn-login" value="로그인"/>
+								<input type="button" class="btn btn-find-orderpw" value="주문비밀번호찾기"/>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-2 add">
+					<a href="#"><img src="g1.JPG"/></a>
+				</div>
+			</div>
+		</form>
+	</div>
+	<script src="login.js" type="text/javascript"></script>
+</body>
+</html>

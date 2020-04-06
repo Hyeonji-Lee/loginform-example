@@ -1,0 +1,191 @@
+html, body{
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 12px;
+}
+#wrap{
+	width: 900px;
+	margin:0 auto;
+	padding: 71px 0;
+}
+h1{margin: 0;}
+a{
+	color: #676767;
+    text-decoration: none;
+}
+.divider{
+	margin-top: 10px;
+    height: 1px;
+    background: #2986df;
+    border: 1px solid #0e6ad3;
+    text-align: center;
+}
+
+.bread-crumb{
+	padding: 8px 0 0 12px;
+    font-size: 11px;
+    color: #888;
+}
+
+.login-section{
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.login-section .col-2{
+	width: 50%;
+	
+}
+
+.login-section .add{
+	width: 425px;
+    margin-top: 42px;
+}
+
+.login-section .add a{
+	display: block;
+	border: 1px solid #f1f1f1;
+	overflow: hidden;
+}
+
+.login-section h2{
+	height: 32px;
+    padding: 13px 0 0 10px;
+	border-bottom: 1px solid #ebebeb;
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+
+.member-select{
+	padding: 13px 0 0 104px;
+	margin-bottom: 16px;
+	font-size: 11px;
+}
+
+.member-select label{
+	margin-left: 5px;
+	margin-right: 50px;
+	vertical-align: middle;
+}
+
+.member-select label input[type='radio']{
+	vertical-align: top;
+}
+
+.login-form{display: none; padding: 0 0 0 41px;}
+.login-form.on{display: block;}
+
+.login-form .login-input{
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.login-form label{
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-bottom: 8px;
+}
+
+.login-form label.saveid{
+	padding-left: 60px;
+	color: #888;
+}
+
+.login-form label .label-txt{
+	display: inline-block;
+	width: 63px;
+	font-size: 12px;
+}
+
+.login-form label .label-txt{
+	display: inline-block;
+	width: 63px;
+	font-size: 12px;
+}
+
+#nonLogin label:last-child .label-txt{
+	font-size: 11px;
+}
+
+.login-form .input-txt{
+	display: inline-block;
+	height: 31px;
+	width: 174px;
+    padding: 0 13px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #0075d4;
+}
+.login-form .input-tel{width:31px;}
+.login-form .dash{padding: 0 3px;}
+.login-form input:hover{
+	border: 1px solid #0075d4;
+}
+.btn{
+	border: 0;
+    cursor: pointer;
+}
+
+.login-form .btn-login-wrap{
+	margin-left: 8px;
+}
+
+.login-form .btn-login-wrap .btn-login{
+	display: block;
+    width: 96px;
+    height: 70px;
+    background-color: #067dfd;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+	line-height: 70px;
+} 
+
+.login-form .btn-login-wrap .btn-find-orderpw{
+	margin-top: 13px;
+	width: 96px;
+    height: 31px;
+	background: #929ba9;
+	border-radius: 4px;
+	color: #fff;
+    font-size: 11px;
+    line-height: 31px;
+    letter-spacing: -.5px;
+}
+
+.login-form .links{
+	margin: 10px 45px 0 0;
+    padding-top: 14px;
+    border-top: 1px solid #ebebeb;
+}
+.login-form .links .member{
+	padding-left: 46px;
+}
+.login-form .links .member a {
+    display: inline-block;
+    height: 13px;
+    margin: 0;
+    padding: 0 15px;
+    border-right: 1px solid #999999;
+	font-weight: bold;
+	line-height: 13px;
+}
+
+.login-form .links .member a:last-child{
+	border-right: none;
+}
+
+.login-form .links #register{
+	color: #0e6ad3;
+}
